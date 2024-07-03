@@ -1,0 +1,25 @@
+{
+	"name": "starqi-utils",
+	"version": "1.0.0",
+	"description": "StarQi的工具包",
+	"main": "index.ts",
+	"author": "starqi",
+	"license": "ISC",
+	"exports": {
+		".": "./src/common/index.ts",
+		"./node": "./src/node/index.ts",
+		"./web": "./src/brower/index.ts"
+	},
+	"keywords": [
+		"starqi-utils",
+		"starqi",
+		"utils"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/TianQiYun/StarqUtils.git"
+	},
+	"devDependencies": {
+		"@types/node": "^20.14.9"
+	}
+}
